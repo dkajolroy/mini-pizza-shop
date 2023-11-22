@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class CartScreen extends StatelessWidget {
-  const CartScreen({super.key});
+class ProfileScreen extends StatelessWidget {
+  const ProfileScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class CartScreen extends StatelessWidget {
       body: const SafeArea(
           child: Center(
         child: Text(
-          "CartScreen",
+          "Profile Screen",
           style: TextStyle(fontSize: 20),
         ),
       )),
